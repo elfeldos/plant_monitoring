@@ -61,7 +61,7 @@ void loop() {
   client.loop();
 
   unsigned long now = millis();
-  if (now - lastMsg > 10000) {  // Send data every 10 seconds
+  if (now - lastMsg > 60000) {  // Send data every 60 seconds
     lastMsg = now;
     
     // Read soil moisture

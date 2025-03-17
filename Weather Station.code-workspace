@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "../Weather Station"
+		},
+		{
+			"name": "plant_monitoring",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
